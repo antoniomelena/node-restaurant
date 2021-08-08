@@ -2,10 +2,9 @@
   "name": "restaurant",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
   "repository": {
@@ -17,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/antoniomelena/node-restaurant/issues"
   },
-  "homepage": "https://github.com/antoniomelena/node-restaurant#readme"
+  "homepage": "https://github.com/antoniomelena/node-restaurant#readme",
+  "devDependencies": {
+    "webpack-cli": "^4.7.2"
+  }
 }
