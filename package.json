@@ -1,0 +1,21 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoniomelena/node-restaurant.git"
+  },
+  "author": "Antonio Melena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoniomelena/node-restaurant/issues"
+  },
+  "homepage": "https://github.com/antoniomelena/node-restaurant#readme"
+}
