@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/antoniomelena/node-restaurant#readme",
   "devDependencies": {
+    "css-loader": "^6.2.0",
+    "style-loader": "^3.2.1",
     "webpack-cli": "^4.7.2"
   }
 }
