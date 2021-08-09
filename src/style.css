@@ -125,9 +125,9 @@ table {
 /*================= start ==================*/
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #aaa;
+  background-color: #fff;
   line-height: 1.5;
-  color: #333b48;
+  color: #272a2e;
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -135,15 +135,15 @@ body {
 }
 
 header {
-  border-bottom: 1px solid black;
-  background-color: steelblue;
-  color: white;
+  border-bottom: 1px solid #000;
+  background-color: #fff;
+  color: #000;
 }
 
 nav {
   margin: 0 auto;
   position: relative;
-  background-color: slategray;
+  background-color: #aaa;
   width: 500px;
 }
 
@@ -168,15 +168,18 @@ nav ul {
   flex: 1;
 }
 
-nav a {
-  color: aquamarine;
+
+
+.showing {
+   background-color: #272a2e;
+   color: #fff;
 }
 
 .tab:hover::before {
   content: "";
   position: absolute;
   top: 2.01rem;
-  background: rgb(255, 153, 0);
+  background: gold;
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 100%;
@@ -207,38 +210,40 @@ img {
   height: 100vh;
 }
 
-.homeDiv {
-   height: 90vh;
-   padding: 15px;
-   background-color: crimson;
-}
-.homeDiv p {
-   padding: 10px 40px;
-}
-
 #homeDiv,
 #menudiv,
 #contactDiv {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #aaa;
+  background-color: rgb(145, 215, 155);
+  color: #fff;
   align-items: center;
   justify-content: center;
+}
+
+.homeDiv {
+   height: 90vh;
+   padding: 15px;
+}
+.homeDiv p {
+   padding: 10px 40px;
 }
 
 #homeImg {
    height: calc(100vh - 45px);
    width: 100vw;
-   background-image: url(./images/churros.jpg);
+   background-image: url(./images/bakery.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
 }
 
 #homeContainer {
+   color: #fff;
    height: calc(100vh - 45px);
    width: 100vw;
+   background-color: #272a2e;
 }
 
 #homeContainer h1 {
@@ -264,42 +269,48 @@ img {
   margin-bottom: 3.5rem;
 }
 .menu-section-header {
-  font-family: cursive;
-  margin-bottom: 0.6rem;
-  margin-top: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 2.5rem;
 }
 #menuContainer {
-  background-color: rgba(219, 219, 219);
+  background-color: #272a2e;
   margin: 0 auto;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   width: 80%;
-  border: 10px double darkturquoise;
+  border: 10px double#fff;
+  border-radius: 5px;
   border-width: 9px;
 }
 
+
+#contactDiv {
+  height: calc(100vh - 45px);
+  flex-direction: row;
+}
 #containerDiv {
-  background-color: greenyellow;
+  background-color:#272a2e;
+  margin: 10px;
+  border: 10px double #fff;
+  border-radius: 5px;
+  padding: 5vw;
+  align-items: normal;
 }
 #contactDiv h1 {
-  border: 1px solid red;
   padding: 5px;
 }
 #contactDiv p {
-  border: 1px solid blue;
   padding: 10px;
 }
-#imageDiv {
-  margin: 1em 1em;
-  max-height: 82vh;
-  max-height: 100vw;
-  border: 1px solid red;
+#contactDiv img {
+   height: calc(100vh - 45px);
 }
+
 
 footer {
   height: 25px;
   width: 100vw;
   padding: 10px;
-  background-color: steelblue;
-  color: white;
+  background-color: #fff;
+  color: #000;
 }

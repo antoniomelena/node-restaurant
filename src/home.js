@@ -36,7 +36,7 @@ export function pageLoad() {
   const homeContainer = document.createElement("div");
   homeContainer.setAttribute("id", 'homeContainer');
   const banner = document.createElement("h1");
-  banner.textContent = "La Panaderia Bro";
+  banner.textContent = "Vesuvio";
   const restaurantReview = document.createElement("p");
   const moreAbout = document.createElement("p");
   restaurantReview.textContent =

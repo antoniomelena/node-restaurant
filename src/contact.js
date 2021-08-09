@@ -18,8 +18,8 @@ export default function contactPage() {
   phoneNumber.textContent = "(222)-888 5555";
 
   const frontImage = document.createElement("img");
-  frontImage.src = "./images/tacoSign.jpg";
-  frontImage.alt = "Neon Taco Sign";
+  frontImage.src = "../src/images/churros.jpg";
+  frontImage.alt = "Churros";
 
   contactContainer.appendChild(banner);
   contactContainer.appendChild(streetAddress);
