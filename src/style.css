@@ -124,13 +124,14 @@ table {
 }
 /*================= start ==================*/
 body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: rgba(219, 219, 219);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #aaa;
   line-height: 1.5;
   color: #333b48;
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  /* height: 100vh; */
 }
 
 header {
@@ -182,6 +183,10 @@ nav a {
   left: calc(49%);
 }
 
+#content {
+   height: calc(100vh - 45px);
+}
+
 h1 {
   text-align: center;
   font-size: 2rem;
@@ -198,16 +203,42 @@ p {
   margin-bottom: 1rem;
 }
 
+img {
+  height: 100vh;
+}
+
+.homeDiv {
+   height: 90vh;
+   padding: 15px;
+   background-color: crimson;
+}
+.homeDiv p {
+   padding: 10px 40px;
+}
+
 #homeDiv,
 #menudiv,
 #contactDiv {
   width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   background-color: #aaa;
   align-items: center;
   justify-content: center;
+}
+
+#homeImg {
+   height: 100vh;
+   width: 100vw;
+   background-image: url(./images/churros.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+
+#homeContainer {
+   height: 100vh;
+   width: 100vw;
 }
 
 .menu-section-header h2 {
@@ -238,11 +269,28 @@ p {
   border-width: 9px;
 }
 
+#containerDiv {
+  background-color: greenyellow;
+}
+#contactDiv h1 {
+  border: 1px solid red;
+  padding: 5px;
+}
+#contactDiv p {
+  border: 1px solid blue;
+  padding: 10px;
+}
+#imageDiv {
+  margin: 1em 1em;
+  max-height: 82vh;
+  max-height: 100vw;
+  border: 1px solid red;
+}
 
 footer {
-  box-sizing: border-box;
-  padding: 10px;
+  height: 25px;
   width: 100vw;
+  padding: 10px;
   background-color: steelblue;
   color: white;
 }
