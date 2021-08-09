@@ -228,7 +228,7 @@ img {
 }
 
 #homeImg {
-   height: 100vh;
+   height: calc(100vh - 45px);
    width: 100vw;
    background-image: url(./images/churros.jpg);
    background-repeat: no-repeat;
@@ -237,8 +237,17 @@ img {
 }
 
 #homeContainer {
-   height: 100vh;
+   height: calc(100vh - 45px);
    width: 100vw;
+}
+
+#homeContainer h1 {
+   margin: 2rem;
+}
+
+#homeContainer p {
+   padding: 10px 10vw;
+   margin-bottom: 45px;
 }
 
 .menu-section-header h2 {

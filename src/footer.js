@@ -4,6 +4,5 @@ export default function createFooter() {
    let footerText = document.createElement('p')
    footerText.textContent = "Antonio Melena";
    footer.appendChild(footerText);
-   console.log(footer)
    return footer;
 };
