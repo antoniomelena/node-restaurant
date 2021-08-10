@@ -48,5 +48,5 @@ contactTab.addEventListener("click", () => {
 
 
 const obj = { a: 'alpha', b: 'bravo' };
-const newObj = { ...obj, c: 'charlie' };
+const newObj = { ...obj, c: 'charliez' };
 console.log(newObj);
