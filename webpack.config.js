@@ -1,7 +1,8 @@
 const path = require("path");
+const mode = process.env.NODE_ENV === 'production' ? 'production' : 'development' 
 
 module.exports = {
-  mode: "production",
+  mode: mode,
   entry: "./src/index.js",
   output: {
     filename: "main.js",
