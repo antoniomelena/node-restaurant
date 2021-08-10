@@ -16,9 +16,6 @@
   "author": "Antonio Melena",
   "license": "ISC",
   "homepage": "https://antoniomelena.github.io/node-restaurant/",
-  "bugs": {
-    "url": "https://github.com/antoniomelena/node-restaurant/issues"
-  },
   "devDependencies": {
     "css-loader": "^6.2.0",
     "html-loader": "^2.1.2",
