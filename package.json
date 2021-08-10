@@ -4,6 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "start": "webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --watch"
@@ -14,6 +15,7 @@
   },
   "author": "Antonio Melena",
   "license": "ISC",
+  "homepage": "https://antoniomelena.github.io/node-restaurant/",
   "bugs": {
     "url": "https://github.com/antoniomelena/node-restaurant/issues"
   },
