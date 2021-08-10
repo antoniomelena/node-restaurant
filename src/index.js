@@ -45,8 +45,3 @@ contactTab.addEventListener("click", () => {
   menuTab.parentElement.classList.remove('showing');
   homeTab.parentElement.classList.remove('showing');
 });
-
-
-const obj = { a: 'alpha', b: 'bravo' };
-const newObj = { ...obj, c: 'charliez' };
-console.log(newObj);
