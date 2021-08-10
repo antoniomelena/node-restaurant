@@ -19,7 +19,6 @@
   "bugs": {
     "url": "https://github.com/antoniomelena/node-restaurant/issues"
   },
-  "homepage": "https://github.com/antoniomelena/node-restaurant#readme",
   "devDependencies": {
     "css-loader": "^6.2.0",
     "html-loader": "^2.1.2",
